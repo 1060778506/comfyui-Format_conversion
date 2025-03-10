@@ -38,5 +38,5 @@ class ImageFormatConverter:
         return np.array(img) / 255.0, str(save_path)  # 返回新图像和路径
 
 NODE_CLASS_MAPPINGS = {
-    "ImageFormatConverter": ImageFormatConverter
+    "转换图片格式": ImageFormatConverter
 }
